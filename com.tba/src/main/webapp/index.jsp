@@ -15,5 +15,11 @@
 	<s:textfield name="pwd" label="Password" type="password"></s:textfield>
 	<s:submit value="Login"></s:submit>
 </s:form>
+
+<%--Directing to sign-up page --%>
+<a href="signup">Join Now</a>
+
+<%-- <jsp:include page="signup.jsp"></jsp:include> --%>
+
 </body>
 </html>

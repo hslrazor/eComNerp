@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"https://hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="model.Signup" table="userdata">
+        <id name="firstname" type="java.lang.String">
+            <column name="FirstName" />
+        </id>
+        <property name="lastname" type="java.lang.String">
+            <column name="LastName" />
+        </property>
+        <property name="name" type="java.lang.String">
+            <column name="UserName" />
+        </property>
+        <property name="pwd" type="java.lang.String">
+            <column name="Password" />
+        </property>
+        <property name="email" type="java.lang.String">
+            <column name="Email" />
+        </property>
+        <property name="birthday" type="java.lang.String">
+            <column name="Birthday" />
+        </property>
+        <property name="gender" type="java.lang.String">
+            <column name="Gender" />
+        </property>
+    </class>
+</hibernate-mapping>

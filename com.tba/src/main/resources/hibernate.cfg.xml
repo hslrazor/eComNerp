@@ -21,6 +21,10 @@
 			Hibernate 4 automatically figure out Dialect from Database Connection Metadata -->
 		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property> 
 		<!-- mapping file, we can use Bean annotations too --> 
+		
 		<mapping resource="Login.hbm.xml" />
+		<mapping resource="Signup.hbm.xml" />
+		
+		
 	</session-factory>
 </hibernate-configuration>
