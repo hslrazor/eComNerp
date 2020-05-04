@@ -17,7 +17,7 @@
 </s:form>
 
 <%--Directing to sign-up page --%>
-<a href="signup">Join Now</a>
+<a href="<s:url value="signup.jsp"  />">Join Now</a>
 
 <%-- <jsp:include page="signup.jsp"></jsp:include> --%>
 
