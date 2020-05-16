@@ -18,7 +18,7 @@
         <property name="email" type="java.lang.String">
             <column name="Email" />
         </property>
-        <property name="birthday" type="java.lang.String">
+        <property name="birthday" type="java.util.Date">
             <column name="Birthday" />
         </property>
         <property name="gender" type="java.lang.String">

@@ -25,17 +25,16 @@ public class SignupDAOImpl implements SignupDAO {
 
 	@Override
 	public boolean insertSingupUser(Signup signupObj) {
-		Session session = sf.openSession();
-		Transaction tx = session.beginTransaction();
-		session.save(signupObj);
 		try {
+			Session session = sf.openSession();
+			Transaction tx = session.beginTransaction();
+			session.save(signupObj);
 			tx.commit();
-			session.close();
-	        session.flush();  
-	        session.close();  
+			session.close();  
 			return true;
 		} catch (Exception e) {
 			// TODO: handle exception
+			e.printStackTrace();
 			return false;
 		}
 		

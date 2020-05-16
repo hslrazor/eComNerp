@@ -15,7 +15,7 @@ create table UserData(
  UserName varchar(20),
  Password varchar(20),
  Email varchar(30),
- Birthday varchar(20),
+ Birthday date,
  Gender varchar(10)
  );
  
